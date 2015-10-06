@@ -1,0 +1,64 @@
+#body1{
+	background-color:black;
+	background-image: url("Halobody.png");
+    background-size: 100% 720px;
+	background-repeat: no-repeat;
+
+}
+#body2{
+	background-color:grey;
+	
+}
+
+
+
+
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: Georgia;
+	font-style: italic; /* Cursive */
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+	text-align: center;
+}
+
+nav{
+	width: 80%;
+	height: 80px;
+	margin: 10px auto 0px auto;
+}
+
+nav a{
+	color:white;
+}
+
+nav a:hover{ /* How it looks when you hover with muose */
+	color:orange;
+}
+
+#current{ 
+		
+}
+
+.navLink{
+	position:relative;
+	float:left;
+	width:20%;	
+	height:76px;
+}
+
+.container{
+	position: relative;
+	width: 33%;
+	margin: 30px 100px 0px -10px; /* top right bottom left */
+	border: 7px black solid; /* border-width border-color border-style*/
+	border-radius: 40px;
+	float:left;
+	height: auto;
+	background: rgba(0,0,0,0.4);
+}
+
+p{
+	
+	color:white;	
+	
+}
