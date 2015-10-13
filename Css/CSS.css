@@ -1,6 +1,6 @@
 #body1{
 	background-color:black;
-	background-image: url("Halobody.png");
+	background-image: url("../files/Halobody.png");
     background-size: 100% 720px;
 	background-repeat: no-repeat;
 
@@ -11,7 +11,30 @@
 	background-size: 100% 720px;
 	background-repeat: no-repeat;
 }
+#bodyHunter{
+	background-image: url("../files/Hunter.png");
+	background-size: 100% 720px;
+	background-repeat:no-repeat;
+	
+}
+#bodyBrutes{
+	background-image: url("../files/Brute.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin:0px 0px 0px 70px;
+}
 
+#bodyGrunts{
+background-image: url("../files/Grunt.png");
+background-size:cover;
+background-repeat:no-repeat;	
+}
+
+#bodyElites{
+	background-image: url("../files/Elite.png");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
 
 
 
