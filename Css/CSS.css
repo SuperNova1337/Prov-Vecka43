@@ -1,7 +1,7 @@
 #body1{
 	background-color:black;
 	background-image: url("../files/Halobody.png");
-    background-size: 100% 720px;
+    background-size: cover;
 	background-repeat: no-repeat;
 
 }
@@ -10,6 +10,21 @@
 	background-image: url("http://offclouds.com/data_images/wallpapers/26/341683-halo-combat-evolved.jpg");
 	background-size: 100% 720px;
 	background-repeat: no-repeat;
+}
+#body3{
+	background-image: url("../files/Halo2.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#body4{
+	background-image: url("../files/Halo3.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#body5{
+	background-image: url("../files/HaloReach.png");
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 #bodyHunter{
 	background-image: url("../files/Hunter.png");
@@ -24,27 +39,77 @@
 	margin:0px 0px 0px 70px;
 }
 
+.video{
+	position:relative; 
+	float:right;
+	top:300px; 
+}
+
+.video1{
+ position: relative;
+ float: left;
+ top: 5px;
+ 
+}
+
+.video2{
+position: relative;
+float: right;
+top: 300px;	
+left: 500px;
+}
+
+.videoBrute{
+position: relative;
+float: left;
+top: 300px;
+right: 550px;
+top: 350px;	
+}
 #bodyGrunts{
 background-image: url("../files/Grunt.png");
 background-size:cover;
-background-repeat:no-repeat;	
+background-
+repeat:no-repeat;	
 }
 
 #bodyElites{
 	background-image: url("../files/Elite.png");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat:no-repeat;
+	
+}
+.container2{
+	position: relative;
+	width: 33%;
+	margin: 1px 10px 0px -10px; /* top right bottom left */
+	border: 7px black solid; /* border-width border-color border-style*/
+	border-radius: 40px;
+	float:right;
+	height: auto;
+	background: rgba(0,0,0,0.4);
+}
+
+.container3{
+	position: relative;
+	width: 33%;
+	margin: 1px 10px 0px -10px;
+	border: 7px black solid; 
+	border-radius: 40px;
+	float:right;
+	height: auto;
+	background: rgba(0,0,0,0.4);
 }
 
 
 
 
-
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,a{
 	font-family: Georgia;
 	font-style: italic; /* Cursive */
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
 	text-align: center;
+	color:white;
 }
 
 nav{
@@ -87,4 +152,39 @@ p{
 	
 	color:white;	
 	
+}
+
+ul{
+	float:right;
+	
+    text-size:50%;
+	margin-right:40px;
+}
+
+ul a{
+	text-decoration:none;
+}
+
+ul a:hover{
+	color:orange;	
+}
+
+ul li{
+	overflow:hidden;
+	
+	
+}
+
+ul li p{
+	text-align:center;
+	
+}
+
+.listContainer{
+	border: 7px black solid;
+	width:150px;
+	float:right;
+	margin-top:150px;
+	border-radius:20px;
+	background: rgba(0,0,0,0.4)
 }
