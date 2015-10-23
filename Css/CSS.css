@@ -81,7 +81,7 @@ repeat:no-repeat;
 }
 .container2{
 	position: relative;
-	width: 33%;
+	width: 460px;
 	margin: 1px 10px 0px -10px; /* top right bottom left */
 	border: 7px black solid; /* border-width border-color border-style*/
 	border-radius: 40px;
@@ -92,7 +92,7 @@ repeat:no-repeat;
 
 .container3{
 	position: relative;
-	width: 33%;
+	width: 420px;
 	margin: 1px 10px 0px -10px;
 	border: 7px black solid; 
 	border-radius: 40px;
@@ -137,9 +137,13 @@ nav a:hover{ /* How it looks when you hover with muose */
 	height:76px;
 }
 
+#width700{
+	width:700px;
+}
+
 .container{
 	position: relative;
-	width: 33%;
+	width: 420px;
 	margin: 30px 100px 0px -10px; /* top right bottom left */
 	border: 7px black solid; /* border-width border-color border-style*/
 	border-radius: 40px;
@@ -187,4 +191,34 @@ ul li p{
 	margin-top:150px;
 	border-radius:20px;
 	background: rgba(0,0,0,0.4)
+}
+
+
+
+.videoDiv h1{
+	margin:125px 0px 0px 60px;
+}
+
+.videoDiv a{
+	text-decoration:none;
+}
+
+.videoDiv a:hover{
+	text-decoration:underline;
+}
+
+
+#halo2Video{
+	margin:100px 0px 0px 0px;
+}
+
+#halo3Video{
+	margin:100px 0px 0px 200px;
+	float:left;	
+	width:560px;
+	height:315px;
+}
+
+#bruteVideo{
+	margin:230px 0px 0px 0px;
 }
