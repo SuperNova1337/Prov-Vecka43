@@ -196,15 +196,47 @@ ul li p{
 
 
 .videoDiv h1{
-	margin:125px 0px 0px 60px;
+	margin:-70px -100px 0px 600px;
 }
 
 .videoDiv a{
 	text-decoration:none;
+	float:right;
+	
 }
 
 .videoDiv a:hover{
 	text-decoration:underline;
+}
+
+.videoDiv1 h1{
+	margin: -70px -100px 0px 300px;
+}
+
+.videoDiv1 a{
+	text-decoration:none;
+	float:left;
+}
+
+.videoDiv1 a:hover{
+	text-decoration:underline;
+}
+
+.videoDiv2 h1{
+margin: -70px 100px 0px 300px;	
+}
+
+.videoDiv2 a{
+	text-decoration:none;
+	float:right;
+}
+
+.videoDiv2 a:hover{
+	text-decoration:underline;
+}
+
+#halo1Video{
+	margin: 100px 0px 0px 0px;
 }
 
 
@@ -218,6 +250,7 @@ ul li p{
 	width:560px;
 	height:315px;
 }
+
 
 #bruteVideo{
 	margin:230px 0px 0px 0px;
