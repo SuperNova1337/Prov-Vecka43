@@ -122,11 +122,17 @@ nav a{
 	color:white;
 }
 
+nav h2:hover{
+	color: blue;
+	text-decoration:underline;
+}
+
 nav a:hover{ /* How it looks when you hover with muose */
 	color:orange;
 }
 
-#current{ 
+#current a:hover{
+	color:orange; 
 		
 }
 
@@ -171,6 +177,7 @@ ul a{
 
 ul a:hover{
 	color:orange;	
+	text-decoration:underline;
 }
 
 ul li{
@@ -184,6 +191,23 @@ ul li p{
 	
 }
 
+.listContainerbrute{
+	border: 7px black solid;
+	width:150px;
+	float:right;
+	margin-top:-350px;
+	border-radius:20px;
+	background: rgba(0,0,0,0.4)
+}
+
+.listContainerElite{
+	border: 7px black solid;
+	width:150px;
+	float:left;
+	margin-top:150px;
+	border-radius:20px;
+	background: rgba(0,0,0,0.4)
+}
 .listContainer{
 	border: 7px black solid;
 	width:150px;
@@ -261,6 +285,19 @@ float:right;
 	text-decoration:underline;
 }
 
+.videoDivbrute h1{
+	margin: -300px 100px 0px 300px;	
+}
+
+.videoDivbrute a{
+	text-decoration:none;
+float:right;	
+}
+
+.videoDivbrute a:hover{
+	text-decoration:underline;
+}
+
 #halo1Video{
 	margin: -130px 100px 100px -100px;
 	float: left;
@@ -277,6 +314,7 @@ float:right;
 	float:left;	
 	width:560px;
 	height:315px;
+	
 }
 
 #haloRvideo{
