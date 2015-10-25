@@ -193,6 +193,14 @@ ul li p{
 	background: rgba(0,0,0,0.4)
 }
 
+.listContainer2{
+	border: 7px black solid;
+	width:150px;
+	float:right;
+	margin-top:150px;
+	border-radius:20px;
+	background: rgba(0,0,0,0.4)
+}
 
 
 .videoDiv h1{
@@ -209,8 +217,13 @@ ul li p{
 	text-decoration:underline;
 }
 
+.videoDiv1{
+margin: 300px -300px 10px -500px;	
+float: left;
+}
+
 .videoDiv1 h1{
-	margin: -70px -100px 0px 300px;
+	margin: 450px 100px 100px -330px;
 }
 
 .videoDiv1 a{
@@ -223,7 +236,7 @@ ul li p{
 }
 
 .videoDiv2 h1{
-margin: -70px 100px 0px 300px;	
+margin: -70px 100px 0px 100px;	
 }
 
 .videoDiv2 a{
@@ -235,8 +248,23 @@ margin: -70px 100px 0px 300px;
 	text-decoration:underline;
 }
 
+.videoDivR h1{
+margin: 70px 100px 0px 300px;	
+}
+
+.videoDivR a{
+text-decoration:none;
+float:right;	
+}
+
+.videoDivR a:hover{
+	text-decoration:underline;
+}
+
 #halo1Video{
-	margin: 100px 0px 0px 0px;
+	margin: -130px 100px 100px -100px;
+	float: left;
+	
 }
 
 
@@ -251,6 +279,9 @@ margin: -70px 100px 0px 300px;
 	height:315px;
 }
 
+#haloRvideo{
+margin: 100px 0px 0px 100px;	
+}
 
 #bruteVideo{
 	margin:230px 0px 0px 0px;
